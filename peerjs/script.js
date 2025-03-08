@@ -18,7 +18,7 @@ navigator.mediaDevices
   .catch((err) => console.error("Error accessing media devices:", err));
 
 peer.on("open", (id) => {
-  document.getElementById("my-id").innerText = id;
+  document.getElementById("id").innerText = id;
 });
 
 function callPeer() {
